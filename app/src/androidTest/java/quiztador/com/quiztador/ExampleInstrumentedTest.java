@@ -1,4 +1,4 @@
-package com.wegroszta.andrei.myapp;
+package quiztador.com.quiztador;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.wegroszta.andrei.myapp", appContext.getPackageName());
+        assertEquals("quiztador.com.quiztador", appContext.getPackageName());
     }
 }

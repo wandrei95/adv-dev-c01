@@ -1,4 +1,4 @@
-package ro.softvision.course.myapp;
+package quiztador.com.quiztador;
 
 import org.junit.Test;
 
