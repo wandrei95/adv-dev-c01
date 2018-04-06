@@ -50,7 +50,13 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected Auth doInBackground(Void... voids) {
-            String stringUri = "http://192.168.0.123/svcourse2018/users/login";
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            String stringUri = "http://192.168.0.100/svcourse2018/users/login";
             try {
                 URL url = new URL(stringUri);
                 HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
